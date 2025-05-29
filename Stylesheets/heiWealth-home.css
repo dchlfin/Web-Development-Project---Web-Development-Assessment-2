@@ -1,0 +1,117 @@
+.container 
+{
+border: 1px solid #eae6e2;
+width: 90%;
+max-width: 1536px;
+margin-inline: auto;
+position: relative; 
+height: 380px;
+margin: 4em auto;
+overflow: hidden;
+white-space: nowrap;
+}
+
+@keyframes scrollright 
+{
+  to {
+    right: -570px;
+  }
+}
+
+.container div img
+{
+  width: 570px;
+  height: 380px;
+  z-index: -1;
+  position: absolute; 
+  right: max(calc(570px * 2.05), 100%);
+  animation-name: scrollright;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.img1 
+{
+  animation-delay: calc(30s / 3 * (3 - 1) * -1);
+}
+
+.img2 
+{
+  animation-delay: calc(30s / 3 * (3 - 2) * -1);
+}
+
+.img3 
+{
+  animation-delay: calc(30s / 3 * (3 - 3) * -1);
+}
+
+#wlc-h2
+{
+  margin-top: 3em;
+}
+
+#wlc-msg
+{
+  font-size: 1.3em;
+  margin: .2em 0 2em 0; 
+}
+
+#wlc-msg2
+{
+  font-size: 1.3em; 
+  text-align: center;
+  max-width: 37.5em;
+  min-width: 6.25em;
+  margin: 1em auto 4em auto;
+}
+
+#jmotto1-2
+{
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-family: "Noto Serif JP", serif;
+  color: #eae6e2;
+  writing-mode: vertical-rl;
+  font-size: 1.25em;
+  white-space: nowrap; 
+  letter-spacing: .3em;
+}
+
+#jmotto2-2
+{
+  position: absolute;
+  top: 45%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  font-family: "Noto Serif JP", serif;
+  color: #eae6e2;
+  writing-mode: vertical-rl;
+  font-size: 1.25em;
+  white-space: nowrap; 
+  letter-spacing: .3em;
+}
+
+#emotto
+{
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  font-family: "Vollkorn", serif;
+  color:#eae6e2;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.line
+{
+  border: 1px solid #9f9c9a;
+  border-width: thin;
+  margin: 0 .5em -1em auto;
+  height: 150px;
+  display: inline-block;
+}
