@@ -1,0 +1,45 @@
+.faq-header 
+{
+    text-align: center;
+    margin: 5em 0; 
+}
+
+.faq-header h1
+{
+    font-family: "Vollkorn", serif;
+    font-weight: 400; 
+    font-style: italic;
+}
+
+.faq-container
+{
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.faq-items
+{
+    width: 100%;
+    padding: 0 2em;
+}
+
+.faq-dscrp 
+{
+    margin-bottom: 5em;
+}
+
+.faq-dscrp h2, .faq-dscrp p
+{
+    margin: 1em auto;
+    max-width: 800px;
+}
+
+table, th, td
+{
+    border: 1px solid #211009;
+    border-collapse: collapse;
+    padding: 1em;
+}

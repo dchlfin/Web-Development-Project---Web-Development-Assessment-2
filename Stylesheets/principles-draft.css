@@ -1,0 +1,108 @@
+/*.fep-pts 
+{
+    box-sizing: border-box; 
+    display: grid; 
+    grid-template-rows: auto auto auto auto; 
+    max-width: 1000px;
+    margin: 1em auto; 
+    padding: 5em 0;
+    /*background-image: linear-gradient(#c7cfd4, #eae6e2, #eae6e2, #eae6e2);
+    width: 100%;
+    display: block;
+}*/
+
+/*.fep-bg
+{
+    width: 100%;
+    grid-template-rows: auto auto auto;
+}
+
+.fep-bg div
+{
+    box-sizing: border-box;
+    display: grid; 
+    background-image: linear-gradient(#c7cfd4, #eae6e2, #eae6e2);
+}
+
+.fep1-container
+{
+    background-color: white;
+    grid-template-columns: auto auto; 
+    gap: 10em;
+    margin: 5em 9em;
+}
+
+.fep1-dscrp1
+{
+    flex-direction: column;
+    gap: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+}*/
+
+
+
+/*.fep-pts .fep1
+{
+    display: grid; 
+    grid-template-columns: auto auto; 
+    max-width: 1000px;
+}
+
+.fep1-dscrp1 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2em; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fep1-dscrp2 
+{
+    display: flex;
+    flex-direction: column; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.hhb-kanji
+{
+    text-align: right;
+    writing-mode: vertical-rl;
+    font-family: "Noto Serif JP", serif;
+    color: #4b555c; 
+    font-weight: 400; 
+    font-size: 5em;
+    margin: .5em 0 .5em auto; 
+}
+
+.fep1-dscrp1, .fep1-dscrp2
+{
+    font-size: 1.2em;
+}
+
+.fep1 
+{
+    display: block;
+
+}*/
+
+/*.fep-bg {
+  width: 100%;
+  background-image: linear-gradient(#c7cfd4, #eae6e2, #eae6e2);
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5em; /* adds space between principles 
+}
+
+.fep1-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10em;
+  max-width: 1000px;
+  margin: 0 auto; /* optional: inner box look 
+  padding: 2em;
+  border-radius: 0.5em;
+}*/

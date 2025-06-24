@@ -1,0 +1,170 @@
+/* parent container */
+/* add display: grid and gap: y to distance divs */ 
+.shokuiko
+{
+    overflow: hidden;
+    display: grid;
+    gap: 12em;
+    border: 1px solid #eae6e2;
+    background-image: linear-gradient(#b7baa5, #eae6e2, #eae6e2, #eae6e2);
+    grid-template-rows: auto auto;
+    padding: 2em auto;
+}
+
+.shokuiko div 
+{
+    justify-content: center;
+    text-align: center;
+}
+
+/* parent container */ 
+.skk-h
+{
+    grid-template-rows: auto auto;
+}
+
+.skk-h-dscrp
+{
+    display: grid;
+    row-gap: 1em;
+    justify-items: center; 
+    align-items: center;
+}
+
+.skk-h-dscrp h1 
+{
+    font-family: "Noto Serif JP", serif;
+    font-size: 9em; 
+    font-weight: 400;
+}
+
+.skk-h-dscrp h2
+{
+    font-family: "Vollkorn", serif;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.skk-h-dscrp h1, .skk-h-dscrp h2
+{
+    color: #4b555c;
+}
+
+.fep
+{
+    grid-template-rows: auto auto auto;
+}
+
+.fep-dscrp
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    row-gap: 2em;
+}
+
+.fep-dscrp h2
+{
+    font-size: 2em;
+}
+
+.fep-dscrp-container
+{
+    width: 45%;
+    font-size: 1.5em;
+}
+
+.grid-container 
+{
+    max-width: 1000px;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 5em;
+    z-index: 1; 
+    padding: 10em 1em;
+}
+
+.grid-container-3
+{
+    max-width: 1000px;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 5em;
+    z-index: 1; 
+    padding: 10em 1em 45em 1em;
+}
+
+.flex-container 
+{
+    display: flex; 
+    flex-wrap: wrap; 
+    font-size: 20px;
+}
+
+.flex-item1, .flex-item2, .flex-item3, .flex-item5
+{
+    flex-direction: column;
+}
+
+.flex-item1, .flex-item3, .flex-item5, .flex-item6
+{
+    gap: 2.5em;
+}
+
+.bg
+{
+    background-image:linear-gradient(#c7cfd4, #eae6e2, #eae6e2);
+    width: 100%;
+}
+
+.hhb-kanji
+{
+    writing-mode: vertical-rl;
+    font-family: "Noto Serif JP", serif;
+    color: #4b555c; 
+    font-weight: 400; 
+    font-size: 5em;
+    text-align: right; 
+    margin: .5em 0 .1em auto; 
+}
+
+ul li, p 
+{
+    line-height: 1.7em;
+}
+
+.hhb-ul
+{
+    width: 90%;
+}
+
+.tree img
+{
+    margin: 0;
+    position: absolute;
+}
+
+.shokuiku-img img
+{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 700px) 
+{
+    .tree img
+    {
+        opacity: 0.5;
+    }
+}
+
+.flex-item5
+{
+    right: 0; 
+}

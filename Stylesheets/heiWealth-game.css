@@ -1,0 +1,18 @@
+.game-h
+{
+    margin: 5em;
+    border: 1px solid #eae6e2;
+}
+
+.game-h-dscrp
+{
+    justify-items: center; 
+    align-items: center;
+}
+
+.game-h-dscrp h1
+{
+    font-family: "Vollkorn", serif;
+    font-style: italic;
+    font-weight: 400; 
+}
