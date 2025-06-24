@@ -10,7 +10,11 @@
 
         <!--External CSS Website Stylesheets-->
         <link rel="stylesheet" href="Stylesheets/heiWealth.css">
-        <link rel="stylesheet" href="Stylesheets/heiWealth-principles.css"
+        <link rel="stylesheet" href="Stylesheets/heiWealth-principles.css">
+
+        <!--Animations-->
+        <link rel="stylesheet" href="Reveal/reveal.css">
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>heiWealth: Japanese Nutrition Basics</title>
@@ -23,36 +27,87 @@
 
         <nav>
             <ul>
-                <li><a href="heiWealth-home.html" target="_blank">Home</a></li>
-                <li><a href="heiWealth-principles.html" target="_blank">Principles</a></li>
-                <li><a href="heiWealth-diet.html" target="_blank">Diet</a></li>
-                <li><a href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
-                <li><a href="heiWealth-faq.html" target="_blank">FAQ</a></li>
+                <li><a class="home" href="heiWealth-home.html" target="_blank">Home</a></li>
+                <li><a class="principles" href="heiWealth-principles.html" target="_blank">Principles</a></li>
+                <li><a class="diet" href="heiWealth-diet.html" target="_blank">Diet</a></li>
+                <li><a class="game" href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
+                <li><a class="faq" href="heiWealth-faq.html" target="_blank">FAQ</a></li>
             </ul>
         </nav>
 
-        <div class="shokuiko">
+        <div class="shokuiko reveal">
             <div class="skk-h">
                 <div class="skk-h-dscrp">
                     <div><h1>食育</h1></div>
-                    <div><h2>Shokuiko</h2></div>
+                    <div><h2>Shokuiku</h2></div>
                 </div>
             </div>
 
-            <div class="fep">
+            <div class="fep reveal">
                 <div class="fep-dscrp">
                     <div><h2>Food Education Principles</h2></div>
                     <div class="fep-dscrp-container">
                         <div><p>In Japan, food is not just fuel, but also a life lesson. Known as Shokuiku (食育), this philosophy of food education teaches people to eat with balance, gratitude, and awareness. The following practices reflect these values.</p></div>
                     </div>
-                    <div><img src="Assets/shokuiku.png"></div>
+                    <div class="shokuiku-img"><img src="Assets/shokuiku.png"></div>
                 </div>
             </div>
         </div>
 
-        <div class="fep1">
-            
+        <div class="bg">
+            <div class="grid-container reveal"> 
+                <div class="flex-container flex-item1">
+                    <div><h2>1. Hara Hachi Bun Me: Stop Eating When You're 80% Full</h2></div>
+                    <div><p>Hara Hachi Bun Me (腹八分目) is based on the Confucian teaching where you listen to your body and stop eating before you feel full. This approach holds a number of benefits including:</p></div>
+                        <div class="hhb-ul">
+                        <ul>
+                            <li>Increased enjoyment and awareness during meal times</li>
+                            <li>Easier digestion</li>
+                            <li>Decreased risk of chronic diseases</li>   
+                        </ul>
+                        </div>
+                </div>
+
+                <div class="flex-container flex-item2">
+                    <div class="hhb-kanji-container">
+                        <div><p class="hhb-kanji">腹八分目</p></div>
+                    </div>
+                    <div><p>Eating whole foods, including unpeeled vegetables and whole fish, provides your body with valuable protein, fiber, heart-healthy fats, and essential micronutrients. While completely eliminating processed foods can be difficult in today’s world, reducing your intake can still significantly impact your overall health.</p></div>
+                </div>
+            </div>
         </div>
 
+        <div class="bg">
+            <div class="grid-container reveal">
+                <div class="flex-container flex-item3">
+                    <div><h2>2. Eat Whole Foods</h2></div>
+                    <div><p>Eating whole foods, including unpeeled vegetables and whole fish, provides your body with valuable protein, fiber, heart-healthy fats, and essential micronutrients. While completely eliminating processed foods can be difficult in today’s world, reducing your intake can still significantly impact your overall health.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg">
+            <div class="grid-container-3 reveal">
+                <div class="tree"><img src="Assets/tree.png" width="804" height="1095"></div>
+        
+                <div class="flex-container flex-item5">
+                    <div><h2>3. Eat Seasonally and Locally</h2></div>
+                    <div><p>The Japanese diet encourages buying from local farmer’s markets to enjoy fresh, seasonal fruits and vegetables. This practice not only supports local agriculture, but also helps you understand where your food comes from, how it's grown, and what’s currently in season. From juicy summer tomatoes to colorful autumn apples, eating seasonally can help you appreciate the natural rhythms of the year — and develop a deeper connection to your meals.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg">
+            <div class="grid-container reveal">
+                <div class="flex-container flex-item6">
+                    <div><h2>4. Eat with Good Company</h2></div>
+                    <div><p>While a grab-and-go meal is a convenient filling method, it diminishes the pleasure of eating. Sharing meals with family and friends builds camaraderie and can help diversify your food offerings. As Aristotle said, “Man is by nature a social animal."</p></div>
+                    <div class="center">
+                        <a class="btn" href="heiWealth-diet.html" target="_blank">Learn The Diet</a>
+                    </div>
+                </div>
+        </div>
+    
+        <script src="reveal/reveal.js"></script>
     </body>
 </html>
