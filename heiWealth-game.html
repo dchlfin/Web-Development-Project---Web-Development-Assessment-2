@@ -10,7 +10,8 @@
 
         <!--External CSS Website Stylesheets-->
         <link rel="stylesheet" href="Stylesheets/heiWealth.css">
-        <link rel="stylesheet" href="Stylesheets/heiWealth-game.css"
+        <link rel="stylesheet" href="Stylesheets/heiWealth-game.css">
+        <link rel="stylesheet" href="Build Your Plate/game.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>heiWealth: Japanese Nutrition Basics</title>
@@ -23,19 +24,77 @@
 
         <nav>
             <ul>
-                <li><a href="heiWealth-home.html" target="_blank">Home</a></li>
-                <li><a href="heiWealth-principles.html" target="_blank">Principles</a></li>
-                <li><a href="heiWealth-diet.html" target="_blank">Diet</a></li>
-                <li><a href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
-                <li><a href="heiWealth-faq.html" target="_blank">FAQ</a></li>
+                <li><a class="home" href="heiWealth-home.html" target="_blank">Home</a></li>
+                <li><a class="principles" href="heiWealth-principles.html" target="_blank">Principles</a></li>
+                <li><a class="diet" href="heiWealth-diet.html" target="_blank">Diet</a></li>
+                <li><a class="game" href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
+                <li><a class="faq" href="heiWealth-faq.html" target="_blank">FAQ</a></li>
             </ul>
         </nav>
 
         <div class="game-h">
             <div class="game-h-dscrp">
                 <div><h1>Build Your Plate</h1></div>
+
                 <div><p>Choose your soup, main, sides, and rice to create your own Ichiju Sanai set!</p></div>
             </div>
         </div>
+
+        <div class="center">
+        <div class="options-bar">
+            <ul>
+                <li class="dropdown"><a href="#">Soup</a>
+                    <div class="dropdown-content">
+                        <button class="button" id="soup1">miso soup with tofu and wakame</button>
+                        <button class="button" id="soup2">clear dashi soup</button>
+                        <button class="button" id="soup3">mushroom miso soup</button>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Rice</a>
+                    <div class="dropdown-content">
+                        <button class="button" id="rice1">white rice</button>
+                        <button class="button" id="rice2">brown rice</button>
+                        <button class="button" id="rice3">mixed grain rice</button>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Main Dish</a>
+                    <div class="dropdown-content">
+                        <button class="button" id="md1">grilled salmon</button>
+                        <button class="button" id="md2">tamagoyaki (rolled omelet)</button>
+                        <button class="button" id="md3">teriyaki chicken</button>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Side Dish</a>
+                    <div class="dropdown-content">
+                        <button class="button" id="sd1">spinach with sesame</button>
+                        <button class="button" id="sd2">pickled cucumbers</button>
+                        <button class="button" id="sd3">braised burdock root</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Pickles</a>
+                    <div class="dropdown-content">
+                        <button class="button" id="p1">umeboshi (pickled plum)</button>
+                        <button class="button" id="p2">takuan (yellow radish)</button>
+                        <button class="button" id="p3">pickled daikon</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="byp">
+            <div class="plate">
+                <img src="Assets/plate.png">
+                    <div class="dish-bar">
+                        <div id="soup" class="dish">Soup</div>
+                        <div id="rice" class="dish">Rice</div>
+                        <div id="main-dish" class="dish">Main Dish</div>
+                        <div id="side-dish" class="dish">Side Dish 1</div>
+                        <div id="pickles" class="dish">Pickles</div>
+                    </div>
+            </div>
+        </div>
+
+        <script src="Build Your Plate/game.js"></script>
     </body>
 </html>
