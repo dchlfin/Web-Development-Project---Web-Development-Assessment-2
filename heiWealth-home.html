@@ -10,7 +10,11 @@
 
         <!--External CSS Website Stylesheets-->
         <link rel="stylesheet" href="Stylesheets/heiWealth.css">
-        <link rel="stylesheet" href="Stylesheets/heiWealth-home.css"
+        <link rel="stylesheet" href="Stylesheets/heiWealth-home.css">
+
+        <!--Animations-->
+        <link rel="stylesheet" href="Reveal/reveal.css">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>heiWealth: Japanese Nutrition Basics</title>
@@ -23,26 +27,26 @@
 
         <nav>
             <ul>
-                <li><a href="heiWealth-home.html" target="_blank">Home</a></li>
-                <li><a href="heiWealth-principles.html" target="_blank">Principles</a></li>
-                <li><a href="heiWealth-diet.html" target="_blank">Diet</a></li>
-                <li><a href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
-                <li><a href="heiWealth-faq.html" target="_blank">FAQ</a></li>
+                <li><a class="home" href="heiWealth-home.html" target="_blank">Home</a></li>
+                <li><a class="principles" href="heiWealth-principles.html" target="_blank">Principles</a></li>
+                <li><a class="diet" href="heiWealth-diet.html" target="_blank">Diet</a></li>
+                <li><a class="game" href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
+                <li><a class="faq" href="heiWealth-faq.html" target="_blank">FAQ</a></li>
             </ul>
         </nav>
         
-        <section>
-        <div class="container">
-            <div><img src="Assets/hp-img3.png" class="img1" title="Published on February 13, 2019, by Rita Chou"></div>
-            <div><img src="Assets/hp-img2.png" class="img2" title="Published on August 16, 2019, by Richard Iwaki"></div>
-            <div><img src="Assets/hp-img1.png" class="img3" title="Published on July 4, 2024, by Buddy Photo"></div>
-            <div id="jmotto1-2"><p>すべての食事に調和を</p></div>
-            <div id="jmotto2-2"><p>—すべての人に栄養を。</p></div>
-            <div id="emotto"><p>Harmony in every meal — Nourishment for every body</p></div>
-        </div>
+        <section class="rspnsv">
+            <div class="container reveal">
+                <div><img src="Assets/hp-img3.png" class="img1" title="Published on February 13, 2019, by Rita Chou"></div>
+                <div><img src="Assets/hp-img2.png" class="img2" title="Published on August 16, 2019, by Richard Iwaki"></div>
+                <div><img src="Assets/hp-img1.png" class="img3" title="Published on July 4, 2024, by Buddy Photo"></div>
+                <div id="jmotto1-2"><p>すべての食事に調和を</p></div>
+                <div id="jmotto2-2"><p>—すべての人に栄養を。</p></div>
+                <div id="emotto"><p>Harmony in every meal — Nourishment for every body</p></div>
+            </div>
         </section>
 
-        <section>
+        <section class = "reveal">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
@@ -54,5 +58,7 @@
 
             <a class="btn" href="heiWealth-principles.html" target="_blank">Learn More</a>
         </section>
+
+        <script src="reveal/reveal.js"></script>
     </body>
 </html>
