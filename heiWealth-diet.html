@@ -10,7 +10,11 @@
 
         <!--External CSS Website Stylesheets-->
         <link rel="stylesheet" href="Stylesheets/heiWealth.css">
-        <link rel="stylesheet" href="Stylesheets/heiWealth-diet.css"
+        <link rel="stylesheet" href="Stylesheets/heiWealth-diet.css">
+
+        <!--Animations-->
+        <link rel="stylesheet" href="Reveal/reveal.css">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>heiWealth: Japanese Nutrition Basics</title>
@@ -23,21 +27,21 @@
 
         <nav>
             <ul>
-                <li><a href="heiWealth-home.html" target="_blank">Home</a></li>
-                <li><a href="heiWealth-principles.html" target="_blank">Principles</a></li>
-                <li><a href="heiWealth-diet.html" target="_blank">Diet</a></li>
-                <li><a href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
-                <li><a href="heiWealth-faq.html" target="_blank">FAQ</a></li>
+                <li><a class="home" href="heiWealth-home.html" target="_blank">Home</a></li>
+                <li><a class="principles" href="heiWealth-principles.html" target="_blank">Principles</a></li>
+                <li><a class="diet" href="heiWealth-diet.html" target="_blank">Diet</a></li>
+                <li><a class="game" href="heiWealth-game.html" target="_blank">Build Your Plate</a></li>
+                <li><a class="faq" href="heiWealth-faq.html" target="_blank">FAQ</a></li>
             </ul>
         </nav>
 
-        <div class="diet">
+        <div class="diet reveal">
             <div class="diet-wrapper">
                 <p>Your body needs macronutrients (carbs, protein, fat) for energy and micronutrients (vitamins, minerals) for overall health. Traditional Japanese meals naturally include these through balanced ingredients.</p>
             </div>
         </div>
 
-        <div class="ichiju-sansai">
+        <div class="ichiju-sansai reveal">
             <div class="ichj-sns-wrapper">
                 <div class=ichj-sns-dscrp>
                     <h2>Ichiju Sansai</h2>
@@ -48,13 +52,12 @@
         </div>
 
 
-        <div class="ichiju-sansai1">
+        <div class="ichiju-sansai1 reveal">
             <div class="ichj-sns-col">
-                
             </div>
         </div>
             
-            <div class="ichiju-sansai2">
+            <div class="ichiju-sansai2 reveal">
                 <div><p><b><i>Ichiju Sansai</i></b> typically includes:</p></div>
 
                 <div class="ichiju-sansai2-ul">
@@ -89,23 +92,28 @@
                     </div>
                 </div>
 
-                <div ><img src="Assets/ichiju-sansai-graphic.png"></div>
+                <div><img src="Assets/ichiju-sansai-graphic.png"></div>
 
             </div>
 
             <div class="magowayasashiii">
-                <div><img src="Assets/chopsticks.png"></div>
-                <div><h2>How Do You Implement Ichiju Sansai?</h2></div>
-                <div class="mgwyssi-kanji-container">
-                    <div class="mgwyssi-kanji">まごわやさしい</div>
+                <div class="reveal">
+                    <div><img src="Assets/chopsticks.png"></div>
+                    <div><h2>How Do You Implement Ichiju Sansai?</h2></div>
                 </div>
-                <div><h3>Ma-Go-Wa-Ya-Sa-Shi-Ii</h3></div>
-                <div class="mgwyssi-dscrpt-container">
+
+                <div class="reveal">
+                    <div class="mgwyssi-kanji-container">
+                        <div class="mgwyssi-kanji">まごわやさしい</div>
+                    </div>
+                    <div><h3>Ma-Go-Wa-Ya-Sa-Shi-Ii</h3></div>
+                </div>
+                <div class="mgwyssi-dscrpt-container reveal">
                     <div>The phrase <b>ma-go-wa-ya-sa-shii-ii</b> (まごわやさしい) has served as a guide to encourage a more plant and seafood-based meal.</div>
                 </div>
             </div>
 
-            <div class="table">
+            <div class="table reveal">
                 <div class="table-wrapper">
                     <table class="table-design">
                         <tr>
@@ -122,42 +130,42 @@
                             <td>Protein</td>
                         </tr>
 
-                        <tr> <!--style syllable-->
+                        <tr> 
                             <td>Go (ご)</td>
                             <td><b>Goma:</b> Seeds/Nuts</td>
                             <td>Sesame seeds, walnuts</td>
                             <td>Protein, minerals, antioxidants</td>
                         </tr>
 
-                        <tr> <!--style syllable-->
+                        <tr> 
                             <td>Wa (わ)</td>
                             <td><b>Wakame:</b> Seaweed</td>
                             <td>Kombu, nori, wakame</td>
                             <td>Calcium</td>
                         </tr>
 
-                        <tr> <!--style syllable-->
+                        <tr> 
                             <td>Ya (や)</td>
                             <td><b>Yasai:</b> Vegetables</td>
                             <td>Spinach, carrots, daikon</td>
                             <td>Variety of nutrients</td>
                         </tr>
 
-                        <tr> <!--style syllable-->
+                        <tr> 
                             <td>Sa (さ)</td>
                             <td><b>Sakana:</b> Fish</td>
                             <td>Salmon, mackarel</td>
                             <td>Protein</td>
                         </tr>
 
-                        <tr> <!--style syllable-->
+                        <tr> 
                             <td>Shii (し)</td>
                             <td><b>Shiitake:</b> Mushrooms</td>
                             <td>Shiitake, enoki, maitake</td>
                             <td>Vitamin D</td>
                         </tr>
 
-                        <tr> <!--style syllable-->
+                        <tr> 
                             <td>Ii (い) </td>
                             <td><b>Imo:</b> Potatoes</td>
                             <td>Sweet potatoes, taro, potatoes</td>
@@ -166,9 +174,10 @@
                     </table>
                 </div>
                 <div>
-                    <a class="btn" href="heiWealth-diet.html" target="_blank">Build Your Plate</a>
+                    <a class="btn" href="heiWealth-game.html" target="_blank">Build Your Plate</a>
                 </div>
             </div>
-        
+
+        <script src="reveal/reveal.js"></script>
     </body>
 </html>
